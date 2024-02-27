@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Datos {
-    String codigoCuentaCotizacion;
-    String año;
-    String mes;
-    List<Trabajador> trabajadores;
+    private String codigoCuentaCotizacion;
+    private String año;
+    private String mes;
+    private List<Trabajador> trabajadores;
 
     public Datos(String codigoCuentaCotizacion, String año, String mes) {
         this.codigoCuentaCotizacion = codigoCuentaCotizacion;
@@ -15,4 +15,5 @@ public class Datos {
         this.mes = mes;
         this.trabajadores = new ArrayList<>();
     }
+
 }
